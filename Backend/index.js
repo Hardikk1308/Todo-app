@@ -3,7 +3,7 @@
 const app = require('./Src/app'); // Check correct folder name
 const { connectDB } = require('./config/db');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 connectDB(); // Connect to MongoDB
 
